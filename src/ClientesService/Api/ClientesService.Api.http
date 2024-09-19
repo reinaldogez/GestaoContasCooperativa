@@ -1,0 +1,22 @@
+@ClientesService.Api_HostAddress = http://localhost:5099
+
+### Requisição para obter um cliente pelo CPF (v1)
+
+GET {{ClientesService.Api_HostAddress}}/api/v1/clientes/12345678900
+Accept: application/json
+
+###
+
+### Requisição para criar um novo cliente (v1)
+
+POST {{ClientesService.Api_HostAddress}}/api/v1/clientes
+Content-Type: application/json
+
+{
+    "cpf": "12345678900",
+    "nome": "João Silva",
+    "endereco": "Rua Exemplo, 123",
+    "profissao": "Engenheiro"
+}
+
+###
