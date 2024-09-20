@@ -16,7 +16,6 @@ public class ClientesContext : DbContext
         modelBuilder.Entity<Cliente>()
             .HasKey(c => c.CPF);
 
-        // Configurações adicionais (opcional)
         modelBuilder.Entity<Cliente>()
             .Property(c => c.Nome)
             .IsRequired();

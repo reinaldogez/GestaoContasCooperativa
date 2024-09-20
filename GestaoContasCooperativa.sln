@@ -7,13 +7,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64449F99-156
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientesService", "ClientesService", "{105E411E-48D2-4A0E-97FA-42A4C24A7988}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesService.Domain", "src\ClientesService\ClientesService.Domain\ClientesService.Domain.csproj", "{183346A1-B6A5-4967-AD65-10D03F5139A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesService.Domain", "src\ClientesService\Domain\ClientesService.Domain.csproj", "{183346A1-B6A5-4967-AD65-10D03F5139A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesService.Application", "src\ClientesService\ClientesService.Application\ClientesService.Application.csproj", "{7A133033-2A31-4948-83F0-233947E90867}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesService.Application", "src\ClientesService\Application\ClientesService.Application.csproj", "{7A133033-2A31-4948-83F0-233947E90867}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesService.Infrastructure", "src\ClientesService\ClientesService.Infrastructure\ClientesService.Infrastructure.csproj", "{64C8B90B-04E3-428B-A69B-1C8209C752C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesService.Infrastructure", "src\ClientesService\Infrastructure\ClientesService.Infrastructure.csproj", "{64C8B90B-04E3-428B-A69B-1C8209C752C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesService.Api", "src\ClientesService\ClientesService.Api\ClientesService.Api.csproj", "{D9C3B70C-285E-43D5-B5BE-25DF70827230}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesService.Api", "src\ClientesService\Api\ClientesService.Api.csproj", "{D9C3B70C-285E-43D5-B5BE-25DF70827230}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContasService", "ContasService", "{5A24CF3A-32D5-4182-AF46-B146353E5384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContasService.Api", "src\ContasService\Api\ContasService.Api.csproj", "{8E8E6D1B-AA72-4406-A119-820018149DA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\ContasService\Application\ContasService.Application.csproj", "{42CE5FB4-FB16-422D-B704-7914FDCA1452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\ContasService\Domain\ContasService.Domain.csproj", "{7D8C322B-2E83-4DEB-BE8C-C7CBC5223E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\ContasService\Infrastructure\ContasService.Infrastructure.csproj", "{01A0199E-0650-41D6-BACE-DEC74C981C56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +50,22 @@ Global
 		{D9C3B70C-285E-43D5-B5BE-25DF70827230}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9C3B70C-285E-43D5-B5BE-25DF70827230}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9C3B70C-285E-43D5-B5BE-25DF70827230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8E6D1B-AA72-4406-A119-820018149DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8E6D1B-AA72-4406-A119-820018149DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8E6D1B-AA72-4406-A119-820018149DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8E6D1B-AA72-4406-A119-820018149DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42CE5FB4-FB16-422D-B704-7914FDCA1452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CE5FB4-FB16-422D-B704-7914FDCA1452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CE5FB4-FB16-422D-B704-7914FDCA1452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CE5FB4-FB16-422D-B704-7914FDCA1452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8C322B-2E83-4DEB-BE8C-C7CBC5223E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8C322B-2E83-4DEB-BE8C-C7CBC5223E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8C322B-2E83-4DEB-BE8C-C7CBC5223E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8C322B-2E83-4DEB-BE8C-C7CBC5223E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A0199E-0650-41D6-BACE-DEC74C981C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A0199E-0650-41D6-BACE-DEC74C981C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A0199E-0650-41D6-BACE-DEC74C981C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A0199E-0650-41D6-BACE-DEC74C981C56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{105E411E-48D2-4A0E-97FA-42A4C24A7988} = {64449F99-1564-4090-82FA-5433DDB285A5}
@@ -47,5 +73,10 @@ Global
 		{7A133033-2A31-4948-83F0-233947E90867} = {105E411E-48D2-4A0E-97FA-42A4C24A7988}
 		{64C8B90B-04E3-428B-A69B-1C8209C752C8} = {105E411E-48D2-4A0E-97FA-42A4C24A7988}
 		{D9C3B70C-285E-43D5-B5BE-25DF70827230} = {105E411E-48D2-4A0E-97FA-42A4C24A7988}
+		{5A24CF3A-32D5-4182-AF46-B146353E5384} = {64449F99-1564-4090-82FA-5433DDB285A5}
+		{8E8E6D1B-AA72-4406-A119-820018149DA8} = {5A24CF3A-32D5-4182-AF46-B146353E5384}
+		{42CE5FB4-FB16-422D-B704-7914FDCA1452} = {5A24CF3A-32D5-4182-AF46-B146353E5384}
+		{7D8C322B-2E83-4DEB-BE8C-C7CBC5223E87} = {5A24CF3A-32D5-4182-AF46-B146353E5384}
+		{01A0199E-0650-41D6-BACE-DEC74C981C56} = {5A24CF3A-32D5-4182-AF46-B146353E5384}
 	EndGlobalSection
 EndGlobal
